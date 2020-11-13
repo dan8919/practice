@@ -1,0 +1,25 @@
+11/12
+tar읽기?  Java Stream
+
+1.tar 파일 훑기(실패..) / gzipfile   2.(찾기)
+3.파일쓰기  4.상단에 어느 디렉토리에 있었는지 표기
+(Find : application.properties)
+
+
+
+
+Class:
+
+Files
+BufferedReader
+FileReader
+
+BufferedWritter
+FileWritter
+path
+paths
+
+
+InpputStream
+GzidInputStream
+
