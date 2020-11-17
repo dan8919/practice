@@ -1,0 +1,41 @@
+5. int var1 = str1.compareTo( str2 );
+
+6.last modified time of a file (file.lastModified())
+
+7.Write Java program to read input from java console.
+  =>[  InputStreamReader inputStreamReader = new InputStreamReader(System.in)
+    BufferedReader bufferedReader = new BufferedReader(inputStreamReader);]
+
+8.Write a Java program to read contents from a file into byte array.
+(잘 안됨...)
+
+9.Write a Java program to read a file content line by line.
+
+10.Write a Java program to read a plain text file.
+=>StringBuilder
+
+11.Write a java program to read a file line by line and store it into a variable.
+=>String str_data = ""에 추가
+
+12.Write a Java program to write and read a plain text file.
+
+
+
+
+    file size:
+    file.length()    ->bytes
+    file.length()/1024    ->kb
+    file.length()/(1024*1024)    ->mb
+
+    BufferedReader, FileReader, InputStreamReader =>System.in 가능!
+
+    StringBuilder 긴문자열을 더하는 상황[ stringBuilder.append("str") ]
+
+    [ System.linSeparator() ]->줄 바꿈
+
+    String str = ""; ->str은 null이 아님
+
+     String a = Arrays.toString(list.toArray());
+      ->ArrayList 를 list.toArray()통해 object[]로 만들고 toString해서 String으로 만듬
+
+     List도 sysout 가능함!
