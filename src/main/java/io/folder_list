@@ -19,6 +19,20 @@
 
 12.Write a Java program to write and read a plain text file.
 
+13.Write a Java program to read first 3 lines from a file.
+=>LineNumberReader
+
+14.Write a Java program to find the longest word in a text file.
+=>Scanner, hasNext, next
+(String : current, longest_word)
+
+
+
+
+
+
+
+
 
 
 
@@ -27,15 +41,37 @@
     file.length()/1024    ->kb
     file.length()/(1024*1024)    ->mb
 
+
     BufferedReader, FileReader, InputStreamReader =>System.in 가능!
+
 
     StringBuilder 긴문자열을 더하는 상황[ stringBuilder.append("str") ]
 
+
     [ System.linSeparator() ]->줄 바꿈
 
+
     String str = ""; ->str은 null이 아님
+
 
      String a = Arrays.toString(list.toArray());
       ->ArrayList 를 list.toArray()통해 object[]로 만들고 toString해서 String으로 만듬
 
+
      List도 sysout 가능함!
+
+
+     FileWriter(String filename,boolean append);
+     => FileWriter fw = new FileWriter(filename,false);
+    ->boolean append : True 면 파일의 끝에 출력 데이터를 붙이며, False면 파일에 덮어쓴다.
+
+
+    LineNumberReader lineNumberReader = new LineNumberReader(new FileReader("/home/students/test.txt")) ;
+       while(((strLine = lineNumberReader.readLine()) !=  null) && lineNumberReader.getLineNumber()<=3)
+       ->LineNumberReader (readLine(),getLineNumber() 로 read first 3 lines)
+
+
+    파일을 스캔
+    =>Scanner scanner = new Scanner(new File("/home/students/test.txt"));
+    While(Scanner.hasNext());
+    String current = Scanner.next();
