@@ -1,0 +1,15 @@
+package array;
+//  find the duplicate values of an array of string values.
+public class Ex_7 {
+    public static void main(String[] args) {
+        String[] my_array = {"bcd", "abd", "jude", "bcd", "oiu", "gzw", "oiu"};
+
+        for (int i = 0; i<my_array.length-1; i++){
+            for (int j = i+1; j<my_array.length; j++){
+                if(my_array[i].equals(my_array[j])){
+                    System.out.println(my_array[j]);
+                }
+            }
+        }
+    }
+}
