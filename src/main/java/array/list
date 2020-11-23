@@ -1,4 +1,5 @@
-1.sorting arrays
+
+https://www.w3resource.com/java-exercises/array/index.php1.sorting arrays
 
 2.Write a Java program to test if an array contains a specific value.
 
@@ -14,6 +15,7 @@ min[0],max[0] 로 설정정
 
 7.find the duplicate values of an array of string values.
 
+8.find the common elements between two arrays (string values).
 
 
 
