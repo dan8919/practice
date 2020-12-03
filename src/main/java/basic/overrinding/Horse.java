@@ -7,9 +7,11 @@ public class Horse extends Animal implements Ridable {
         System.out.println(this.getName()+"은 (는) 네발로 뛴다.");
     }
 
+
     @Override
     public void youCanRide(String rideName) {
         System.out.println(this.getName()+"은(는)"+ rideName +"을(를) 태울 수 있다.");
     }
+
 
 }

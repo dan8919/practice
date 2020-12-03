@@ -26,7 +26,9 @@ public class MainClass {
         kangol.run();
         //kangol 은 추상클래스만 상속받음
 
-
+        //Animal abstract class에 일반 메소드 정의 했을때
+        // 상속한 class에서 다시 작성할 필요 없이 사용만 하면 됨
+        horse.animal();
 
     }
 }

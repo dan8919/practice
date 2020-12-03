@@ -13,4 +13,8 @@ public abstract class Animal {
 
     //Abstract method
     abstract  void run();
+
+    public void animal() {
+        System.out.println("동물인가 ?:");
+    }
 }
